@@ -38,8 +38,10 @@ h3 {
     text-transform: capitalize;
     margin: 2rem 0 0.5rem 0;
 }
-ul {
+ul,
+ol {
     text-transform: capitalize;
+    margin-bottom: 1rem;
 }
 li {
     margin-top: 0.25rem;
@@ -53,7 +55,7 @@ a:link,
 a:visited {
     color: yellow;
     text-decoration: none;
-    margin-bottom: 10rem;
+    text-transform: capitalize;
 }
 a:hover {
     color: orangered;
